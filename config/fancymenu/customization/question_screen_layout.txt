@@ -1,0 +1,115 @@
+type = fancymenu_layout
+
+layout-meta {
+  identifier = question_screen
+  render_custom_elements_behind_vanilla = false
+  last_edited_time = 1753416840291
+  is_enabled = true
+  randommode = false
+  randomgroup = 1
+  randomonlyfirsttime = false
+  layout_index = 0
+  [loading_requirement_container_meta:63dbbc9d-9a1b-4503-9941-32f5f6d58f8a-1753416824400] = [groups:][instances:]
+}
+
+customization {
+  action = backgroundoptions
+  keepaspectratio = false
+}
+
+scroll_list_customization {
+  preserve_scroll_list_header_footer_aspect_ratio = true
+  render_scroll_list_header_shadow = true
+  render_scroll_list_footer_shadow = true
+  show_scroll_list_header_footer_preview_in_editor = false
+  repeat_scroll_list_header_texture = false
+  repeat_scroll_list_footer_texture = false
+}
+
+element {
+  button_element_executable_block_identifier = e4c798a5-64e8-4e16-a648-a0804501b7b1-1753382025149
+  [executable_action_instance:05f7bf67-4d04-46e6-99b7-b2e9086195d1-1753382041946][action_type:closegui] = 
+  [executable_block:e4c798a5-64e8-4e16-a648-a0804501b7b1-1753382025149][type:generic] = [executables:05f7bf67-4d04-46e6-99b7-b2e9086195d1-1753382041946;]
+  restartbackgroundanimations = true
+  loopbackgroundanimations = true
+  nine_slice_custom_background = false
+  nine_slice_border_x = 5
+  nine_slice_border_y = 5
+  label = Назад
+  navigatable = true
+  widget_active_state_requirement_container_identifier = 0011ab05-b3bf-4d18-9241-8277405c7ed4-1753382025149
+  [loading_requirement_container_meta:0011ab05-b3bf-4d18-9241-8277405c7ed4-1753382025149] = [groups:][instances:]
+  element_type = custom_button
+  instance_identifier = 0bdca83a-6199-4cad-96c6-53bb6d0f9edf-1753382025149
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in_v2 = no_fading
+  fade_in_speed = 1.0
+  fade_out = no_fading
+  fade_out_speed = 1.0
+  base_opacity = 1.0
+  auto_sizing = false
+  auto_sizing_base_screen_width = 2560
+  auto_sizing_base_screen_height = 1380
+  sticky_anchor = false
+  anchor_point = bottom-right
+  x = -96
+  y = -18
+  width = 100
+  height = 20
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = 73bcdcc4-1176-4186-bc86-ef56911c7226-1753382025149
+  [loading_requirement_container_meta:73bcdcc4-1176-4186-bc86-ef56911c7226-1753382025149] = [groups:][instances:]
+}
+
+element {
+  interactable = true
+  source = Як користуватися клієнтом?%n%- Кнопка "Грати" під'єднує вас до серверу,%n%- Кнопка "Тестування" завантажує мапу з прописаними параметрами для тестування механік моду Create,%n%- Кнопка "Правила" ліворуч знизу виводить текст правил та механік серверу (також екран з правилами можна викликати у грі командою /rules),%n%- Кнопка "Discord" перенаправляє вас на Discord-сервер Gearfront.%n%%n%Як відбуваються оновлення клієнту та навіщо вони потрібні?%n%- За оновленнями клієнту можна стежити у Discord-сервері каналу #канал. Там ви й знайдете посилання на завантаження.%n%- Для оновлення необхідно просто завантажити нову версію клієнта та замінити старі файли на нові,%n%- або запустити скрипти автоматичного встановлення з нової версії.%n%- Оновлення клієнту необхідні для покращення роботи, UI/UX, нових фішок та деякої взаємодії між сервером та клієнтом.%n%%n%Я намагався зайти після перезавантаження серверу, але не зміг.%n%- Скоріше за все у вас виникла помилка "Connection timeout". Якщо ні - повідомляйте адміністраторів!%n%- Якщо так - це абсолютно нормально. Після перезавантаження серверу потрібен деякий час щоб прогрузити усі плагіни та моди.%n%- Наполегливо рекомендуємо очікувати повідомлення про запуск серверу у Discord, так як перед відправкою повідомлення ми завжди тестуємо сервер після перезавантаження.
+  source_mode = direct
+  shadow = true
+  scale = 1.0
+  base_color = #FFFFFFFF
+  text_border = 2
+  line_spacing = 2
+  enable_scrolling = true
+  auto_line_wrapping = true
+  remove_html_breaks = true
+  code_block_single_color = #737373FF
+  code_block_multi_color = #565656FF
+  headline_line_color = #A9A9A9FF
+  separation_line_color = #A9A9A9FF
+  hyperlink_color = #0771FCFF
+  quote_color = #818181FF
+  quote_indent = 8.0
+  quote_italic = false
+  bullet_list_dot_color = #A9A9A9FF
+  bullet_list_indent = 8.0
+  bullet_list_spacing = 3.0
+  parse_markdown = true
+  element_type = text_v2
+  instance_identifier = 3fc84d52-d499-4393-acae-fb7ee5a37f42-1753382090114
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in_v2 = no_fading
+  fade_in_speed = 1.0
+  fade_out = no_fading
+  fade_out_speed = 1.0
+  base_opacity = 1.0
+  auto_sizing = false
+  auto_sizing_base_screen_width = 2560
+  auto_sizing_base_screen_height = 1380
+  sticky_anchor = false
+  anchor_point = top-left
+  x = -6
+  y = 14
+  width = 200
+  height = 40
+  stretch_x = true
+  stretch_y = true
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = c1b9bc53-f7d4-499d-9912-12e3205ade17-1753382090114
+  [loading_requirement_container_meta:c1b9bc53-f7d4-499d-9912-12e3205ade17-1753382090114] = [groups:][instances:]
+}
+

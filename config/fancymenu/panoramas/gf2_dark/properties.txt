@@ -1,0 +1,9 @@
+type = panorama
+
+panorama-meta {
+	name = Gearfront Panorama v2 (Dark variant)
+	speed = 1.0
+	fov = 82
+	angle = 0
+	start_rotation=120
+}

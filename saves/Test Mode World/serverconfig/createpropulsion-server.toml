@@ -1,0 +1,30 @@
+
+[Thruster]
+	#Thrust is multiplied by that.
+	"Thrust multiplier" = 1.0
+	#Fuel consumption is multiplied by that.
+	"Fuel consumption" = 1.0
+	#Thrusters stop accelerating ships upon reaching this speed. Defined in blocks per second.
+	#Range: 10 ~ 200
+	"Thruster speed limit" = 100
+	#Thruster tick rate. Lower values make fluid consumption a little more precise.
+	#Range: 1 ~ 100
+	"Thruster tick rate" = 10
+	#If true - thrusters will damage entities. May have negative effect on performance if a lot of thrusters are used.
+	"Thrusters damage entities" = true
+
+["Optical sensors"]
+	#How many ticks between casting a ray. Lower values are more precise, but can have negative effect on performance.
+	#Range: 1 ~ 100
+	"Optical sensor tick rate" = 5
+	#Length of the raycast ray.
+	#Range: 4 ~ 32
+	"Inline optical sensor max raycast distance" = 16
+	#Length of the raycast ray. Very high values may degrade performance. Change with caution!
+	#Range: 8 ~ 128
+	"Optical sensor max raycast distance" = 64
+	#If true - optical sensors will detect fluids too.
+	"Clip fluids" = true
+	#Optical sensor beam will render only if goggles are equiped.
+	"Beam visible only with goggles" = false
+
