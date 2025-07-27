@@ -5,6 +5,14 @@
 > [!IMPORTANT]
 > Сервер та клієнт знаходяться у стадії активної розробки, можливі баги та технічні збої. Повідомляйте адміністраторів у разі виявлення!
 
+# Контакти
+
+- [Discord сервер](https://discord.gg/gkPgEaTvAr "https://discord.gg/gkPgEaTvAr") (Обов'язково)
+
+- [GitHub Issues](https://github.com/MiraDiv-git/GearfrontClient/issues) (Для повідомлення про недоліки)
+
+- [Сайт MiraDiv](https://miradiv-git.github.io/MDSite) (Пряме звернення до творця через форму)
+
 # Про сервер
 
 **Gearfront** - це український модо-плагінний сервер з політичним нахилом на базі [Create](https://modrinth.com/mod/create). Його особливості:
@@ -31,9 +39,18 @@
 
 Передбачено 2 типи встановлення:
 
-- Автоматичне - Через скрипти папки *Installers*: windows.bat для Windows та unix.sh для Linux / macOS
+- Автоматичне - Через скрипти папки *Installers*: 
+  
+  ```bash
+   # Для Windows
+   Installers\windows.bat # Або подвійним натисканням
+  
+   # Для Linux / macOS
+   chmod +x Installers/unix.sh # Дати права на виконання скрипту
+   ./Installers/unix.sh # Запустити скрипт
+  ```
 
-- Ручне - Через розархівування файлів у теку Minecraft
+- Ручне - Через розархівування папки Gearfront у теку Minecraft
 
 > [!WARNING]
 > Наразі автоматичне встановлення недоступне та знаходиться у розробці.
@@ -68,7 +85,7 @@
 
 **Версія Java**: [OpenJDK 21](https://openjdk.org/projects/jdk/21)
 
-**Розташування серверу**: Київ (власне обладнання)
+**Розташування**: Київ (власне обладнання)
 
 **Операційна система**: [Arch Linux](https://archlinux.org)
 
@@ -76,4 +93,4 @@
 
 **Процесор**: AMD E2-9000e (1.5-2.0Ghz, 2 ядра, 2 потоки)
 
-**Порти серверу**: 25565 (Minecraft), 8123 (Dynmap)
+**Порти**: 25565 (Minecraft), 8123 (Dynmap)
