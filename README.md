@@ -1,6 +1,6 @@
-![Gearfront Logo](assets/logo.png)
+![Gearfront Logo](config/fancymenu/assets/logo.png)
 
-![Minecraft Server undertext](assets/underlogo.png)
+![Minecraft Server undertext](config/fancymenu/assets/underlogo.png)
 
 > [!IMPORTANT]
 > Сервер та клієнт знаходяться у стадії активної розробки, можливі баги та технічні збої. Повідомляйте адміністраторів у разі виявлення!
