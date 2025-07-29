@@ -123,7 +123,7 @@ key_key.exposure.camera_controls:key.keyboard.unknown
 key_key.corpse.death_history:key.keyboard.u
 key_key.prone:key.keyboard.c
 key_key.prone.toggle:key.keyboard.unknown
-key_iris.keybind.reload:key.keyboard.r
+key_iris.keybind.reload:key.keyboard.unknown
 key_iris.keybind.toggleShaders:key.keyboard.k
 key_iris.keybind.shaderPackSelection:key.keyboard.o
 key_key.dynamic_fps.toggle_forced:key.keyboard.unknown
